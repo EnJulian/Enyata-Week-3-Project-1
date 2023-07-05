@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 2880px;
+  width: 100%;
 }
 
 .macbook-pro .div {
@@ -13,7 +13,7 @@
   height: 7133px;
   overflow: hidden;
   position: relative;
-  width: 100%;
+  width: 1440px;
 }
 
 .macbook-pro .hero-section {
@@ -43,7 +43,7 @@
   width: 1440px;
 }
 
-.macbook-pro .phone-left {
+.macbook-pro .phone-right {
   height: 490px;
   left: 301px;
   object-fit: cover;
@@ -52,7 +52,7 @@
   width: 1139px;
 }
 
-.macbook-pro .phone-center {
+.macbook-pro .phone-left {
   height: 439px;
   left: 0;
   object-fit: cover;
@@ -61,7 +61,7 @@
   width: 1020px;
 }
 
-.macbook-pro .phone-right {
+.macbook-pro .phone-center {
   height: 538px;
   left: 283px;
   object-fit: cover;
@@ -1192,29 +1192,29 @@
   .overlap-group h1 {
     display: flex;
     color: #ffffff;
-    font-size: 34px;
+    font-size: 39px;
     font-weight: 700;
     letter-spacing: 0;
     position: absolute;
     line-height: 40px;
     text-align: center;
     top: 134px;
-    left: 15px;
+    left: 69px;
     width: 50px;
   }
 
   .overlap-group p {
     display: flex;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 530;
-    left: 15px;
+    left: 45px;
     letter-spacing: 0;
     line-height: 18px;
     position: absolute;
     text-align: center;
     top: 294px;
-    width: 200px;
+    width: 290px;
 
   }
   .macbook-pro .hero-logo-variation {
@@ -1230,7 +1230,7 @@
     position: absolute;
     width: 39px;
     height: 31px;
-    left: 188px;
+    left: 295px;
     top: 20px;
     flex-shrink: 0;
   }
@@ -1238,11 +1238,45 @@
     display: flex;
     flex-direction: column;
     height: 76px;
-    left: 20px;
+    left: 65px;
     position: absolute;
     top: 400px;
-    width: 200px;
+    width: 250px;
     gap: 26px;
+  }
+  .macbook-pro .image-fan {
+    height: 538px;
+    left: 0;
+    position: absolute;
+    top: 869px;
+    width: 1440px;
+  }
+
+  .macbook-pro .phone-left {
+    height: 490px;
+    left: 301px;
+    object-fit: cover;
+    position: absolute;
+    top: 48px;
+    width: 1139px;
+  }
+
+  .macbook-pro .phone-center {
+    height: 439px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 99px;
+    width: 1020px;
+  }
+
+  .macbook-pro .phone-right {
+    height: 538px;
+    left: 283px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 737px;
   }
 
 }
