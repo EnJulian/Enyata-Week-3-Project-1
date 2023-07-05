@@ -70,6 +70,7 @@
   width: 737px;
 }
 
+
 .macbook-pro .top-buttons-container {
   height: 82px;
   left: 440px;
@@ -1233,5 +1234,16 @@
     top: 20px;
     flex-shrink: 0;
   }
+  .macbook-pro .top-buttons-container {
+    display: flex;
+    flex-direction: column;
+    height: 76px;
+    left: 20px;
+    position: absolute;
+    top: 400px;
+    width: 200px;
+    gap: 26px;
+  }
+
 }
 
